@@ -34,13 +34,13 @@ p, article {
 }
 
 h1 {
-	color: #C573A0;
+	color: #A50104;
 }
 
 h3 {
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', Courier New, monospace;
-	color: #C573A0;
+	color: #A23E48;
 }
 
 nav {
@@ -71,14 +71,14 @@ article {
 }
 
 a:link, a:visited {
-	color: #a8296b;			
+	color: #420C14;			
 	text-decoration: none; 	/* no underlines */
 	transition-property: background-color;
 	transition-duration: 500ms;
 }
 
 a.dark:link, a.dark:visited {
-  	color: #f9f3fa;
+  	color: #FCD581;
 }
 
 a.dark:active {
@@ -90,12 +90,12 @@ a.dark: hover {
 }
 
 a:hover {
-	background-color: #dea4ca;
+	background-color: #F9DC5C;
 	color: black;
 }
 
 a:active {
-	background-color: #cdd2e6;
+	background-color: #590004;
 }
 
 video {
