@@ -82,11 +82,11 @@ a.dark:link, a.dark:visited {
 }
 
 a.dark:active {
-	color: #8e021d;
+	color: white;
 }
 
 a.dark: hover {
-	color: #910010;
+	color: #590004;
 }
 
 a:hover {
@@ -95,6 +95,7 @@ a:hover {
 }
 
 a:active {
+	color:  white;
 	background-color: #590004;
 }
 
