@@ -56,6 +56,24 @@ nav > a {
 	margin-right: 1.5em;
 }
 
+img.face {
+	width: calc(96% / 3);
+	height: auto;
+	
+}
+
+#circle {
+         	  align-content: center;
+        	  clip-path: circle();
+         	  width: 400px;
+         	  background: #AA336A;
+}
+
+img.polaroid {
+	width: calc(96% / 3);
+	height: auto;
+}
+
 main {
 	max-width: 1200px;
   	margin: 0 auto;
@@ -102,6 +120,10 @@ a:active {
 
 	h1 {
 		text-align: center;
+	}
+	
+	#circle {
+         	  width: 220px;
 	}
 
 }
