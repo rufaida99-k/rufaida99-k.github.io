@@ -56,11 +56,6 @@ nav > a {
 	margin-right: 1.5em;
 }
 
-img.face {
-	width: calc(96% / 3);
-	height: auto;
-	
-}
 
 #circle {
          	  align-content: center;
@@ -68,10 +63,6 @@ img.face {
          	  background: #AA336A;
 }
 
-img.polaroid {
-	width: calc(96% / 3);
-	height: auto;
-}
 
 main {
 	max-width: 1200px;
@@ -79,7 +70,7 @@ main {
   	display: grid;
   	grid-gap: 1rem;
 	text-align: center;
-  	grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 article {
