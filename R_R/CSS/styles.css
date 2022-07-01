@@ -151,7 +151,7 @@ a:active {
 	background-color: #590004;
 }
 
-#dark {
+.dark {
   background: black;
   transition: 1s all ease;
 }
