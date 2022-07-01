@@ -8,7 +8,7 @@ weekDay.textContent = date.getDate() + "/" + month + "/" + date.getFullYear() + 
 
 
 
-
+/*
 function dark() {
 	const background = document.querySelector('body');
 	background.style.backgroundColor = 'black';
@@ -33,7 +33,7 @@ function light() {
 	footer.className = 'light'; 
 }
 
-
+*/
 var image_track = 'x';
 function changeImage() {
 	var image = document.getElementById('myPicture1');
