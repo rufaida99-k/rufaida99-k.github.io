@@ -59,9 +59,7 @@ nav > a {
 
 #circle {
          	  align-content: center;
-        	  clip-path: circle();
          	  background: #AA336A;
-		  width: 295px;
 }
 
 
@@ -112,10 +110,7 @@ a:active {
 	h1 {
 		text-align: center;
 	}
-	
-	#circle {
-         	  width: 205px;
-	}
+
 
 }
 
