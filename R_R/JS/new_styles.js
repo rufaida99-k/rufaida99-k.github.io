@@ -8,3 +8,11 @@ let weekDay = document.querySelector('h3');
 weekDay.textContent = week[day] + ", " + date.getDate() + " " + months[month] + " " + date.getFullYear();
 
 
+
+$("#switch").on("click", () => {
+  if($("#switch").prop("checked")) {
+      $(".wrapper").addClass("dark");
+  } else {
+    $(".wrapper").removeClass("dark");
+  }
+})
