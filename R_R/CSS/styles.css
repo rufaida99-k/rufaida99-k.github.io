@@ -102,8 +102,8 @@ body {
   border: 1px solid #CCC;
   border-radius: 50px;
   position: absolute;
-  top: 25%;
-  right: 3%;
+  top: 15px;
+  right: 5px;
   cursor: pointer;
   transition: 0.5s all ease;
 
