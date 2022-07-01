@@ -11,8 +11,8 @@ weekDay.textContent = week[day] + ", " + date.getDate() + " " + months[month] + 
 
 $("#switch").on("click", () => {
   if($("#switch").prop("checked")) {
-      $(".wrapper").addClass("dark");
+      $(".boxy").addClass("dark");
   } else {
-    $(".wrapper").removeClass("dark");
+    $(".body").removeClass("dark");
   }
 })
