@@ -142,6 +142,10 @@ header, nav, footer {
 	padding: 0.5em;
 }
 
+.container {
+ background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(5px);
+}
 h1, nav {
 	font-family: 'Goudy Bookletter 1911', Courier New, monospace;
 }
