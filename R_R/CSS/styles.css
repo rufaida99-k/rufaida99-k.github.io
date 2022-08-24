@@ -60,15 +60,11 @@ nav > a {
 
 #glassBox {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
-  width: 500px;
+  justify-content: center
   margin: 0px auto;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
-  border-radius: 1rem;	
-
+  border-radius: 1rem;
 }
 
 main {
