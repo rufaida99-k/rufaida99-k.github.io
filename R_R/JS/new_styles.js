@@ -4,7 +4,7 @@ let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 console.log("day: " + day);
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
 console.log(date + ", " + week[day]);
-let month = date.getMonth() - 1;
+let month = date.getMonth();
 console.log("Month: " + month);
 console.log("Months[month]: " + months[month]);
 console.log("Month js: " + date.getMonth());
