@@ -5,6 +5,10 @@ console.log("day: " + day);
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
 console.log(date + ", " + week[day]);
 let month = date.getMonth() - 1;
+console.log("Month: " + month);
+console.log("Months[month]: " + months[month]);
+console.log("Month js: " + date.getMonth());
+
 let weekDay = document.querySelector('h3');
 weekDay.textContent = week[day] + ", " + date.getDate() + " " + months[month] + " " + date.getFullYear();
 
