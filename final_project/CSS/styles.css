@@ -60,15 +60,19 @@ nav > a {
 
 
 a:link, a:visited {
-	color: #B39AC4;			
+	color: #8f6ca7;			
 	text-decoration: none; 	/* no underlines */
 	transition-property: background-color;
 	transition-duration: 500ms;
 }
 
 a:hover {
-	background-color: #D1BCE4;
+	background-color: #b08bd3;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
 	color: black;
+	font-weight: bold;
 }
 
 a:active {
@@ -76,18 +80,11 @@ a:active {
 	color: #6e0170;
 }
 
-/*a.dark:link, a.dark:visited {
-  	color: #C8B6D0;
+img:hover{
+	opacity: 0.9;
+	cursor: pointer;
 }
 
-a.dark:active {
-	color: #E2F3F8;
-}
-
-a.dark: hover {
-	color: #F1DD7A;
-}
-*/
 main {
 	max-width: 1200px;
   	margin: 0 auto;
@@ -109,6 +106,9 @@ article {
     	height: 45px;
   	font-weight: bolder;
  }
+#foot-text{
+	font-size: 20px;
+}
 
 @media (max-width:  500px) {
 	nav {
