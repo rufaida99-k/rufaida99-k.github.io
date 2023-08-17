@@ -1,7 +1,5 @@
 /* StyleSheet */
 
-@import url('https://fonts.googleapis.com/css2?family=Prociono&family=Sorts+Mill+Goudy&display=swap');
-
 @font-face {
   	font-family: 'Goudy Bookletter 1911';
   	font-style: normal;
@@ -23,24 +21,27 @@ header, nav, footer {
 	padding: 0.5em;
 }
 
-h1, nav {
-	font-family: 'Goudy Bookletter 1911', Courier New, monospace;
+footer {
+	text-align: center;
 }
 
-p, article {
-	font-family: 'Prociono', serif;
-	font-family: 'Sorts Mill Goudy', serif;
-	text-align: center;
+h1, nav, p, article {
+	font-family: 'Goudy Bookletter 1911', Courier New, monospace;
 }
 
 h1 {
-	color: #C573A0;
+	color: #B39AC4;
 }
 
-h3 {
+h3{
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', Courier New, monospace;
-	color: #C573A0;
+	color: #CDADD7;
+	font-size: 20px;
+}
+
+.title {
+		font-size: 25px;
 }
 
 nav {
@@ -48,6 +49,7 @@ nav {
 	flex-direction: row;
 	text-decoration: none;
 	text-align: center;
+	font-size: 20px;
 	padding-right: 5px;
 }
 
@@ -56,6 +58,36 @@ nav > a {
 	margin-right: 1.5em;
 }
 
+
+a:link, a:visited {
+	color: #B39AC4;			
+	text-decoration: none; 	/* no underlines */
+	transition-property: background-color;
+	transition-duration: 500ms;
+}
+
+a:hover {
+	background-color: #D1BCE4;
+	color: black;
+}
+
+a:active {
+	background-color: #E2BCE4;
+	color: #6e0170;
+}
+
+/*a.dark:link, a.dark:visited {
+  	color: #C8B6D0;
+}
+
+a.dark:active {
+	color: #E2F3F8;
+}
+
+a.dark: hover {
+	color: #F1DD7A;
+}
+*/
 main {
 	max-width: 1200px;
   	margin: 0 auto;
@@ -70,50 +102,6 @@ article {
 	padding-bottom: 0;
 }
 
-#polaroid-text{
-	color: #cc8bc1;
-	font-weight: bolder;
-	font-size: 15px;
-}
-
-a:link, a:visited {
-	color: #a8296b;			
-	text-decoration: none; 	/* no underlines */
-	transition-property: background-color;
-	transition-duration: 500ms;
-}
-
-a.dark:link, a.dark:visited {
-  	color: #f9f3fa;
-}
-
-a.dark:active {
-	color: #8e021d;
-}
-
-a.dark:hover {
-	color: #910010;
-}
-
-a:hover {
-	background-color: #dea4ca;
-	border-radius: 2px;
-	font-weight: bold;
-	color: black;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-a:active {
-	background-color: #dfbbda;
-}
-
-video {
-  	width: 100%;
-  	max-width: 420px;
- 	 height: auto;
-}
-
 .centering {
 	display: flex;
 	justify-content: center;
@@ -121,16 +109,6 @@ video {
     	height: 45px;
   	font-weight: bolder;
  }
-
-#foot{
-	font-weight: bold;
- }
-
- #fLink{
-	padding-left: 10px;
-	padding-right: 10px;
- }
-
 
 @media (max-width:  500px) {
 	nav {
@@ -142,5 +120,3 @@ video {
 	}
 
 }
-
-
